@@ -8,6 +8,10 @@
                     {% for network in site.social %}
                         <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
                     {% endfor %}
+
+                    &nbsp;
+                    <a class="github-button" href="https://github.com/Zulox" data-style="mega" aria-label="Follow @Zulox on GitHub">Follow @Zulox</a>
+                    <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
                 </p>
             </div>
             <div class="col-lg-4">
@@ -16,12 +20,7 @@
                 <p>
                     {% for line in site.address.first.lines %}
                         {{ line }} <br>
-                    {% endfor %}
-
-                      &nbsp;
-                    <a class="github-button" href="https://github.com/Zulox" data-style="mega" aria-label="Follow @Zulox on GitHub">Follow @Zulox</a>
-                    <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
-
+                    {% endfor %}                
                 </p>
             </div>
         </div><! --/row -->
